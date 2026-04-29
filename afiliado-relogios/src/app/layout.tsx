@@ -33,8 +33,8 @@ export default function RootLayout({
         <nav className="menu-bar">
           <ul>
             <li><a href="#">Quem Somos</a></li>
-            <li><a href="#">Relógios Seculos</a></li>
-            <li><a href="#">Relógios Timex</a></li>
+            <li><a href="#">Seculus</a></li>
+            <li><a href="#">Timex</a></li>
           </ul>
         </nav>
 

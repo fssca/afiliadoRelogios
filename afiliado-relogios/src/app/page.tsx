@@ -5,16 +5,11 @@ export default function Home() {
     <main className="container main-content">
 
       {/* BANNER */}
-      <section className="home-banner">
-        <h1>Relógios com estilo e qualidade</h1>
-        <p>Modelos selecionados com excelente custo-benefício</p>
-
-        <Link href="/produtos">
-          <button className="btn-primary">
-            Ver catálogo
-          </button>
-        </Link>
-      </section>
+      <a href="/produtos" className="home-banner">
+        <div className="home-banner-content"> 
+        </div>
+        <span className="btn-primary">Ver os Modelos →</span>
+      </a>
 
       {/* DESTAQUES */}
       <section className="home-products">
